@@ -1,0 +1,21 @@
+<html>
+
+    <head>
+        <title>Reaction timer by Shejan Shuza</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <h1>Reaction Timer by Shejan Shuza</h1>
+        <h2 id="gametext">CLICK THE BUTTON BELOW TO GET STARTED</h2>
+        <button id="mainbutton" onclick="buttonclick()">Start</button>
+        <span id="successbox">
+            <h3 id="finaltime"></h3>
+            <input id="inputname" oninput="checkName()">
+            <p id="errorinput">THE TEXT IS NOT VALID, ONLY 3 CHARS</p>
+            <button onclick="submitscore()">SUBMIT SCORE</button>
+            <p id="serverresponse"></p>
+        </span>
+    </body>
+    <script type="text/javascript" src="scripts.js"> </script>
+</html>

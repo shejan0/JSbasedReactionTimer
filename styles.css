@@ -1,0 +1,15 @@
+#wait{
+    background-color:blueviolet;
+}
+#ready{
+    background-color:chartreuse;
+}
+#failed{
+    background-color:red;
+}
+#success{
+    background-color:yellow;
+}
+.invisible{
+    visibility: hidden;
+}
