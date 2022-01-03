@@ -6,8 +6,11 @@ This project is a system based on creating a functional reaction timer game with
 I had accidently deleted the database when updating mySQL but I believe it to be rather simple and easy to implement:
 
 id-A automatically incrementing ID for what current insert
+
 rtime-integer number that is large enough for the average of 100s of ms difference
+
 uname-a small string used for the entered username
+
 date-a current date that this score was inserted on.
 
 The database doesn't neccessarily have to be secured in anyway since it doesn't record any personal information.
